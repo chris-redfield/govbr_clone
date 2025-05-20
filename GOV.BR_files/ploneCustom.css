@@ -1,0 +1,217 @@
+
+/* - ploneCustom.css - */
+@media all {
+/* https://www.gov.br/portal_css/ploneCustom.css?original=1 */
+/* */
+/* */
+::-webkit-input-placeholder {
+font-style: italic;
+}
+:-moz-placeholder {
+font-style: italic;
+}
+::-moz-placeholder {
+font-style: italic;
+}
+:-ms-input-placeholder {
+font-style: italic;
+}
+div.error {
+font-size: 100% !important;
+}
+#content #login_form h1.documentFirstHeading {
+font-size: 32px;
+text-align: left;
+color: #1351b4;
+font-weight: normal;
+}
+#content #login_form .field label {
+font-size: 16px;
+color: #333333;
+font-weight: bold;
+}
+#content #login_form .field .row {
+margin: 0px -12px;
+}
+#content #login_form #login-forgotten-password {
+text-align: left;
+}
+#content #login_form #login-forgotten-password a {
+color: #1351b4 !important;
+text-decoration: underline;
+text-align: left;
+}
+#content #login_form .formControls {
+text-align: left;
+margin-left: 0;
+}
+#content #login_form .formControls input {
+color: #ffffff;
+background-color: #1351b4;
+font-size: 80%;
+font-weight: bold;
+width: 130px;
+height: 45px;
+border-radius: 20px;
+border: none;
+margin-left: 0;
+}
+.template-logged_out #login-forgotten-password strong,
+.template-login_failed #login-forgotten-password strong,
+.template-login_form #login-forgotten-password strong {
+display: none;
+}
+#content .texto-login-governo {
+color: #555555;
+text-align: right !important;
+font-style: italic !important;
+font-size: 16px;
+}
+#content .filtro-consulta-administrativa .row {
+margin: 0px -12px;
+}
+#content .filtro-consulta-administrativa .row .form-control {
+margin-bottom: 20px;
+}
+#content .filtro-consulta-administrativa .formControls {
+margin-bottom: 40px;
+}
+#content .filtro-consulta-administrativa .formControls .btn {
+margin-left: 25px;
+}
+#content .filtro-consulta-administrativa .btn {
+font-size: 80%;
+font-weight: bold;
+width: 130px;
+height: 45px;
+border-radius: 20px;
+}
+#content .filtro-consulta-administrativa input.btn-primary {
+color: #ffffff;
+background-color: #1351b4;
+border: none;
+padding: 0 40px !important;
+}
+#content .filtro-consulta-administrativa input.btn-secondary,
+#content .filtro-consulta-administrativa input.btn-default {
+color: #1351b4;
+background-color: #ffffff;
+border: 1px solid #1351b4;
+padding: 0 40px !important;
+}
+#content .filtro-consulta-administrativa .auto-complete a.remove-item {
+color: #1351b4 !important;
+text-decoration: underline;
+}
+#content .filtro-consulta-administrativa .autocomplete-selecionados {
+margin-top: -25px;
+margin-bottom: 20px;
+}
+#content .filtro-consulta-administrativa table.listing th,
+#content .filtro-consulta-administrativa table.listing td.center {
+text-align: center;
+}
+#content .filtro-consulta-administrativa table.listing td.capitalize {
+text-transform: capitalize;
+}
+#content .filtro-consulta-administrativa .total-registros {
+text-align: right;
+font-weight: bold;
+color: #333;
+}
+.multi-widget-field.error {
+background-color: white !important;
+}
+#content ul.destaques .itens {
+display: flex;
+flex-wrap: wrap;
+margin: 0 auto;
+padding: 0;
+}
+#content ul.destaques .itens .list-item {
+background-color: #f8f8f8;
+box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+color: #000 !important;
+line-height: 32px;
+margin: 10px 12px;
+padding: 40px;
+position: relative;
+width: 15%;
+}
+#content ul.destaques .itens .list-item::after {
+color: #2b74e9;
+content: '\F062';
+font-family: Font Awesome \35 Free;
+font-weight: 900;
+position: absolute;
+right: 5px;
+top: 0;
+transform: rotate(50deg);
+}
+#content ul.destaques .itens .list-item .categoria {
+display: block;
+font-size: 13px;
+margin-bottom: 25px;
+}
+#content ul.destaques .itens .list-item .texto {
+color: #0c326f;
+display: block;
+font-size: 16px;
+font-weight: 600;
+}
+#content ul.destaques .itens .list-item .nomes-populares {
+font-size: 85%;
+}
+#content ul.destaques .servico {
+box-shadow: 1px 2px 10px 1px #ccc;
+flex: 1 1 22%;
+height: 275px;
+margin: 5px;
+}
+.template-ultimas_noticias #content .col-md-9,
+.template-ultimas_noticias #content .col-md-10 {
+display: inline-block;
+}
+.noticias > li .nomes-conhecidos {
+margin-bottom: 15px;
+}
+.portaltype-pastafixa #viewlet-below-content-title #plone-document-byline {
+display: none;
+}
+.template-logged_out #content div.documentDescription {
+display: none;
+}
+.portaltype-tema #form-widgets-breve_descricao,
+.template-tema #form-widgets-breve_descricao,
+.template-categoria #form-widgets-breve_descricao,
+.portaltype-categoria #form-widgets-breve_descricao,
+.portaltype-app #form-widgets-link_loja_android,
+.portaltype-app #form-widgets-link_loja_ios,
+.template-app #form-widgets-link_loja_android,
+.template-app #form-widgets-link_loja_ios,
+.portaltype-servico #form-widgets-titulo_destaque,
+.template-servico #form-widgets-titulo_destaque,
+.portaltype-servico #form-widgets-breve_descricao,
+.template-servico #form-widgets-breve_descricao {
+height: 2em !important;
+width: 100% !important;
+}
+.portaltype-tema input[type='text'][name$='.widgets.titulo'],
+.template-tema input[type='text'][name$='.widgets.titulo'] {
+width: 100%;
+line-height: 125%;
+color: Black;
+letter-spacing: -0.05em;
+font-size: 2em;
+font-weight: bold;
+}
+.field input[id='govbr-tile-servicos_destaque-quantidade'] {
+width: 2em;
+}
+.section-servicos div[id$="-widgets-digitalizavel"] {
+display: none;
+}
+/* */
+
+}
+

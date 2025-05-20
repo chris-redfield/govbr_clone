@@ -1,0 +1,113 @@
+
+/* - ++resource++govbr.portal/css/portal.css - */
+@media screen {
+/* https://www.gov.br/portal_css/++resource++govbr.portal/css/portal.css?original=1 */
+/* */
+#formfield-form-widgets-servicos .searchButton {
+display: none;
+}
+
+}
+
+
+/* - ++resource++govbr.policy/canais.css - */
+@media screen {
+/* https://www.gov.br/portal_css/++resource++govbr.policy/canais.css?original=1 */
+.field input[type="text"][name="govbr.tile.canais.title"],
+.field input[type="text"][name="govbr.tile.canais.description"],
+.field input[type="text"][name="govbr.tile.canais.description_denuncia"],
+.field input[type="text"][name="govbr.tile.canais.description_solicitacao"],
+.field input[type="text"][name="govbr.tile.canais.description_sugestao"],
+.field input[type="text"][name="govbr.tile.canais.description_elogio"],
+#govbr-tile-canais-description {
+width: 95% !important;
+}
+}
+
+
+/* - ++resource++govbr.policy/controlpanel.css - */
+@media screen {
+/* https://www.gov.br/portal_css/++resource++govbr.policy/controlpanel.css?original=1 */
+.template-site-controlpanel .field input[type="text"][size]{
+width: 100% !important;
+}
+.portaltype-collective-nitf-content #formfield-form-widgets-ICategoria-categoria {
+position: relative;
+}
+.portal-govbr.template-collective-nitf-content #formfield-form-widgets-ICategoriaType-categoria,
+.portal-govbr.portaltype-collective-nitf-content #formfield-form-widgets-ICategoria-categoria,
+.portal-govbr.portaltype-collective-nitf-content #formfield-form-widgets-ICategoriaType-categoria {
+position: relative;
+}
+.portal-govbr.template-collective-nitf-content #formfield-form-widgets-ICategoriaType-categoria::after,
+.portal-govbr.portaltype-collective-nitf-content #formfield-form-widgets-ICategoria-categoria::after,
+.portal-govbr.portaltype-collective-nitf-content #formfield-form-widgets-ICategoriaType-categoria::after {
+content: "■";
+color: Red;
+position: absolute;
+top: -1px;
+left: 85px;
+}
+}
+
+
+/* - ++theme++govbr.servicos/css/servicos.css - */
+@media screen {
+/* https://www.gov.br/portal_css/++theme++govbr.servicos/css/servicos.css?original=1 */
+div[data-fieldname$=".widgets.tempo_espera"]{
+float: left;
+}
+div[data-fieldname$=".widgets.tempo_espera"] .fieldErrorBox{
+display: inline-block;
+}
+div[data-fieldname$=".widgets.tempo_espera"]{
+margin-right: 5px;
+}
+label[for$="-widgets-tempo_espera"]{
+float: left;
+margin-right: 5px;
+}
+div[data-fieldname$=".widgets.tempo_espera_unidade"]{
+display: inline-block;
+}
+#formfield-form-widgets-etapas-0-widgets-canais-0-widgets-tempo_espera .error,
+#formfield-form-widgets-etapas-0-widgets-canais-0-widgets-tempo_espera_unidade .error,
+#formfield-form-widgets-etapas-1-widgets-canais-0-widgets-tempo_espera .error,
+#formfield-form-widgets-etapas-1-widgets-canais-0-widgets-tempo_espera_unidade .error {
+display: inline-block;
+position: absolute;
+width: 200px;
+bottom: 35px;
+left: 0;
+font-size: 12px !important;
+}
+#formfield-form-widgets-etapas-0-widgets-canais-0-widgets-tempo_espera .fieldErrorBox,
+#formfield-form-widgets-etapas-0-widgets-canais-0-widgets-tempo_espera_unidade .fieldErrorBox,
+#formfield-form-widgets-etapas-1-widgets-canais-0-widgets-tempo_espera .fieldErrorBox,
+#formfield-form-widgets-etapas-1-widgets-canais-0-widgets-tempo_espera_unidade .fieldErrorBox {
+display: inline-block;
+}
+#formfield-form-widgets-etapas-0-widgets-canais-0-widgets-tempo_espera_unidade,
+#formfield-form-widgets-etapas-1-widgets-canais-0-widgets-tempo_espera_unidade {
+padding-top: 5px;
+}
+#form-widgets-etapas-0-widgets-canais-0-widgets-tempo_espera,
+#form-widgets-etapas-1-widgets-canais-0-widgets-tempo_espera {
+width: 40px !important;
+}
+#formfield-form-widgets-etapas-0-widgets-canais-0-widgets-tempo_espera_unidade.error,
+#formfield-form-widgets-etapas-1-widgets-canais-0-widgets-tempo_espera_unidade.error {
+padding-top: 11px;
+position: relative;
+}
+#formfield-form-widgets-etapas-0-widgets-canais-0-widgets-tempo_espera,
+#formfield-form-widgets-etapas-1-widgets-canais-0-widgets-tempo_espera {
+position: relative;
+}
+#formfield-form-widgets-etapas-0-widgets-canais-0-widgets-tempo_espera_unidade .fieldErrorBox,
+#formfield-form-widgets-etapas-1-widgets-canais-0-widgets-tempo_espera_unidade .fieldErrorBox {
+padding-top: 6px !important;
+display: inline-block;
+}
+}
+
