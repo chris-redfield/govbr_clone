@@ -220,12 +220,12 @@ if __name__ == "__main__":
         print(f"{n}. ({idx}), Question: '{row.pergunta_chat}', Euclidean distance: {row.distancia_minima_euclidiana:.4f}, Cosine similarity: {row.similaridade_maxima_cosseno:.4f}")
         n += 1
         
-    print("\nApplying PCA for 2D visualization...")
-    reduced_kb_2d, reduced_chats_2d, total_explained_variance_2d = apply_pca(embeddings_kb, embeddings_chats, n_components=2)
+    # print("\nApplying PCA for 2D visualization...")
+    # reduced_kb_2d, reduced_chats_2d, total_explained_variance_2d = apply_pca(embeddings_kb, embeddings_chats, n_components=2)
     
-    print(f"Total explained variance with 2-component PCA: {total_explained_variance_2d:.4f}")
+    # print(f"Total explained variance with 2-component PCA: {total_explained_variance_2d:.4f}")
     
-    plot_2d_pca_with_highlights(reduced_kb_2d, reduced_chats_2d, questions_kb, questions_chats, most_distant_indices, "2D PCA Visualization with Most Distant Questions Highlighted")
+    # plot_2d_pca_with_highlights(reduced_kb_2d, reduced_chats_2d, questions_kb, questions_chats, most_distant_indices, "2D PCA Visualization with Most Distant Questions Highlighted")
     
     print("\nApplying PCA for 3D visualization...")
     reduced_kb_3d, reduced_chats_3d, total_explained_variance_3d = apply_pca(embeddings_kb, embeddings_chats, n_components=3)
